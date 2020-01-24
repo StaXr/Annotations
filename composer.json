@@ -1,0 +1,30 @@
+{
+  "name": "staxr/annotations",
+  "type": "library",
+  "description": "Docblock Annotations Tools",
+  "keywords": ["annotations", "docblock", "tools"],
+  "license": "MIT",
+  "authors": [
+    {"name": "Noramarth <Dan Radu Dragomir>", "email": "noramarth@aom.ro"}
+  ],
+  "require": {
+    "php": "^7.4",
+    "doctrine/lexer": "1.*"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": { "StaXr\\Annotations\\": "lib/" }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "StaXr\\Tests\\Annotations\\": "tests/StaXr/Annotations"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.7.x-dev"
+    }
+  }
+}
