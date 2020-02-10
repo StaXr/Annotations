@@ -9,7 +9,8 @@
   ],
   "require": {
     "php": "^7.4",
-    "doctrine/lexer": "1.*"
+    "doctrine/lexer": "^1.0.0",
+    "doctrine/annotations": "^1.7.0"
   },
   "config": {
     "sort-packages": true
